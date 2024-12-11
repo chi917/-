@@ -1,0 +1,99 @@
+ /* 全体の設定 */
+body {
+    font-family: Arial, sans-serif;  
+    background-color: #f610a9; 
+    color: #ffffff;  
+    line-height: 1.6;  
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;  
+    color: #020105;  
+    margin: 20px 0;  
+}
+
+ /* h1の装飾 */ 
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+p {
+    font-size: 24pt;
+    font-weight: 30;
+    text-align: center;
+}
+
+ 
+.note {
+    color: #a20b0b; 
+    font-style: italic;  
+}
+
+ 
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse; 
+    background-color: #230303;  
+
+th, td {
+    padding: 10px;
+    text-align: center;  
+    border: 1px solid #ddd;  
+
+th {
+    background-color: #610fb3;
+    color: white;  
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;  
+   }
+
+ 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    img {
+        width: 150px; 
+        height: auto; 
+    }
+}
+
+
+
+}
+}
